@@ -94,8 +94,8 @@
     width: 280px;
 }
 .jacket-section{
-    display: flex;.
-    flex-direction: column;
+    display: flex;
+    flex-direction:row;
     column-gap: 40px;
 }
 .jk-image{
