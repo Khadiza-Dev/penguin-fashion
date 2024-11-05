@@ -1,11 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
+.section{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Inter';
 }
 /* header */
+.header-section{
+    background-color: #FFFBF0;
+}
 .logo img{
     width: 291px;
 }
@@ -23,4 +31,128 @@
     list-style-type: none;
     font-weight: 500;
     font-size: 16px;
+}
+/* section */
+.hero-content{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.content-area{
+    width: 600px;
+}
+.hero-content .content-area h1{
+    font-size: 80px;
+    font-weight:600 ;
+    text-transform: uppercase;
+}
+.be {
+    color:#FABE4C ;
+}
+.winter {
+    color:#363958;
+}
+.hero-content .content-area p{
+    font-size:16px ;
+    font-weight: 400;
+    color: #3E3E3E;
+}
+.sopping-btn{
+    background-image: linear-gradient(to right bottom, #a4bc46, #9cb53c, #94ae31, #8da726, #85a019);
+    display:inline-block;
+    padding: 18px 30px;
+    border-radius: 10px;
+    /* display: flex; */
+    column-gap:20px;
+}
+.fa-cart-shopping{
+    color: white;
+}
+.sopping-btn a{
+    text-decoration: none;
+    font-size:16px ;
+    font-weight: 500;
+    color: white;
+}
+.sopping-btn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+.buy-now{
+    width: 170px;
+    padding-top: 20px;
+}
+/* main-section */
+.main-content{
+    padding: 50px 0;
+}
+.jacket-section{
+    padding: 50px 0 80px 0;
+}
+.jk-image img{
+    width: 280px;
+}
+.jacket-section{
+    display: flex;.
+    flex-direction: column;
+    column-gap: 40px;
+}
+.jk-image{
+    padding: 20px 40px;
+    background-color: #F1F1F1;
+    border-radius: 10px;
+}
+.woman-jacket{
+    background-color:#FFFFFF ;
+padding: 30px 25px;
+border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(221, 217, 217, 0.986);
+}
+.woman-jacket h1{
+    font-size: 24px;
+    font-family: 700;
+   padding: 10px 0;
+   color: #363958;
+}
+.woman-jacket p{
+    font-size: 16px;
+    font-family: 400;
+   padding: 10px 0 15px 0;
+   color: #3E3E3E;
+}
+span{
+    color: #FABE4C;
+    font-size:36px ;
+    font-weight: 700;
+}
+.jk-align{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* man-jacket */
+.man-jacket{
+    background-color:#FFFFFF ;
+padding: 30px 25px;
+border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(221, 217, 217, 0.986);
+}
+.man-jacket h1{
+    font-size: 24px;
+    font-family: 700;
+   padding: 10px 0;
+   color: #363958;
+}
+.man-jacket p{
+    font-size: 16px;
+    font-family: 400;
+   padding: 10px 0 15px 0;
+   color: #3E3E3E;
+}
+.h1 h1{
+font-size: 35px;
+font-weight:600;
+color: #363958;
+text-transform: uppercase;
 }
