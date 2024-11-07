@@ -16,7 +16,7 @@
     background-color: #FFFBF0;
 }
 .logo img{
-    width: 291px;
+    width: 310px;
 }
 .hero{
     display: flex;
@@ -115,13 +115,13 @@ border-radius: 15px;
 .woman-jacket h1{
     font-size: 24px;
     font-weight:700;
-   padding: 10px 0;
+   padding: 10px 0 5px 0;
    color: #363958;
 }
 .woman-jacket p{
     font-size: 17px;
     font-weight: 400;
-   padding: 10px 0 15px 0;
+   padding: 5px 0 15px 0;
    color: #3E3E3E;
 }
 span{
@@ -144,13 +144,13 @@ border-radius: 15px;
 .man-jacket h1{
     font-size: 24px;
     font-weight: 700;
-   padding: 10px 0;
+   padding: 10px 0 5px 0;
    color: #363958;
 }
 .man-jacket p{
     font-size: 17px;
     font-weight: 400;
-   padding: 10px 0 15px 0;
+   padding: 5px 0 15px 0;
    color: #3E3E3E;
 }
 .h1 h1{
