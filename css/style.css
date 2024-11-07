@@ -31,7 +31,7 @@
 .main-menu li{
     list-style-type: none;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
 }
 /* section */
 .hero-content{
@@ -43,19 +43,21 @@
     width: 600px;
 }
 .hero-content .content-area h1{
-    font-size: 80px;
-    font-weight:600 ;
+    
+    font-weight:700 ;
     text-transform: uppercase;
 }
 .be {
     color:#FABE4C ;
+    font-size: 50px;
 }
 .winter {
     color:#363958;
+    font-size: 50px;
 }
 .hero-content .content-area p{
-    font-size:16px ;
-    font-weight: 400;
+    font-size:18px ;
+    font-weight: 500;
     color: #3E3E3E;
 }
 .sopping-btn{
@@ -112,20 +114,20 @@ border-radius: 15px;
 }
 .woman-jacket h1{
     font-size: 24px;
-    font-family: 700;
+    font-weight:700;
    padding: 10px 0;
    color: #363958;
 }
 .woman-jacket p{
-    font-size: 16px;
-    font-family: 400;
+    font-size: 17px;
+    font-weight: 400;
    padding: 10px 0 15px 0;
    color: #3E3E3E;
 }
 span{
     color: #FABE4C;
-    font-size:36px ;
-    font-weight: 700;
+    font-size:37px ;
+    font-weight: 800;
 }
 .jk-align{
     display: flex;
@@ -141,19 +143,19 @@ border-radius: 15px;
 }
 .man-jacket h1{
     font-size: 24px;
-    font-family: 700;
+    font-weight: 700;
    padding: 10px 0;
    color: #363958;
 }
 .man-jacket p{
-    font-size: 16px;
-    font-family: 400;
+    font-size: 17px;
+    font-weight: 400;
    padding: 10px 0 15px 0;
    color: #3E3E3E;
 }
 .h1 h1{
-font-size: 35px;
-font-weight:600;
+font-size: 40px;
+font-weight:700;
 color: #363958;
 text-transform: uppercase;
 }
@@ -192,18 +194,19 @@ text-transform: uppercase;
     padding:20px 10px;
 }
 .item h1{
-    font-weight: 600;
-    font-size: 28px;
+    font-weight: 700;
+    font-size: 25px;
     color: #363958;
 }
 .item p{
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 17px;
     color: #363958;
 }
 .icon{
     display: flex;
     flex-direction: row;
+    column-gap: 20px;
     align-items: center;
     padding: 0 0 0 15px
 }
