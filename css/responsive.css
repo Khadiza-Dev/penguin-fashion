@@ -1,15 +1,4 @@
 @media (max-width:600px) {
-  .main-content{
-    display: flex;
-    flex-direction: column;
-  }
-  .container{
-    max-width: 500px;
-    margin: 0 auto;
-    font-family: 'Inter';
-}
-.logo img{
-    width: 500px;
-}
+  
   }
   

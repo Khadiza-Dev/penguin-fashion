@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>penguin fashion</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
-   <header class="header-section section">
-    <div class="container">
+   <header class="header-section">
+    <section class="container">
+    <!-- nav-start -->
     <nav class="hero">
         <div class="logo">
             <img src="icons/logo.png" alt="">
         </div>
-        <div class="nav-menu">
             <ul class="main-menu">
                 <li>Home</li>
                 <li>Product</li>
                 <li>About us</li>
                 <li>Contact us</li>
             </ul>
-        </div>
+            <div class="mobile-menue">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
     </nav>
-</div>
-<section class="hero-content container">
+    <!-- nav-end -->
+<section class="hero-content">
     <div class="content-area">
-        <h1><span class="be">Be the Penguins</span> <span class="winter">of Winter</span></h1>
+        <h1 class="penguin">Be the Penguins</h1>
+        <h1 class="winter">of Winter</h1>
         <p>Lorem Ipsum is simply dummy text of the printing </p>
         <p>and typesetting industry.</p>
         <div class="buy-now">
@@ -41,14 +44,17 @@
         <img src="images/model.png" alt="model">
     </div>
 </section>
+</section>
    </header>
-   <!-- 2nd section -->
-   <main class="main-section">
-    <section class="main-content container">
+   <!-- main-section start -->
+   <main class=" container">
+    <section class="main-content ">
         <div class="h1">
-            <h1>W0Man Jacket</h1>
+            <h1>WoMan Jacket</h1>
         </div>
+        <!--  jacket-section start-->
         <div class="jacket-section">
+            <!-- 1 -->
             <div class="woman-jacket">
                 <div class="jk-image">
                     <img src="images/jacket-1.png" alt="1">
@@ -63,8 +69,8 @@
                         <a href="#">BUY NOW</a>
                     </div>
                 </div>
-                <!--  -->
             </div>
+            <!---->
             <div class="woman-jacket">
                 <div class="jk-image">
                     <img src="images/jacket-2.png" alt="1">
@@ -80,6 +86,7 @@
                         </div>
                     </div>
             </div>
+            <!--  -->
             <div class="woman-jacket">
                 <div class="jk-image">
                     <img src="images/jacket-3.png" alt="1">
@@ -95,12 +102,16 @@
                         </div>
                     </div>
             </div>
+            <!-- -->
         </div>
-<!-- man-section -->
+
+<!-- man-section start-->
 <div class="h1">
     <h1>Man Jacket</h1>
 </div>
+<!-- jacket-section start -->
 <div class="jacket-section">
+    <!--  -->
     <div class="man-jacket">
         <div class="jk-image">
             <img src="images/jacket-4.png" alt="1">
@@ -115,8 +126,8 @@
                 <a href="#">BUY NOW</a>
             </div>
         </div>
-        <!--  -->
     </div>
+    <!--  -->
     <div class="man-jacket">
         <div class="jk-image">
             <img src="images/jacket-5.png" alt="1">
@@ -132,6 +143,7 @@
                 </div>
             </div>
     </div>
+     <!-- -->
     <div class="man-jacket">
         <div class="jk-image">
             <img src="images/jacket-6.png" alt="1">
@@ -147,12 +159,20 @@
                 </div>
             </div>
     </div>
+    <!--  -->
 </div>
+<!-- jacket-section end -->
     </section>
    </main> 
+   <!-- main-section end -->
+
+    <!-- footer-section start -->
    <footer class="footer-section container">
     <section class="last-section">
+        <!-- first-content(div) -->
 <div class="first-content ">
+   
+    <!--  -->
   <div class="icon">
     <div class="first-image">
         <img src="icons/house.png" alt="house">
@@ -163,6 +183,7 @@
             offer styles for every body.</p>
      </div>
   </div>
+  <!--  -->
   <div class="icon">
  <div class="first-image">
     <img src="icons/box.png" alt="box">
@@ -173,6 +194,7 @@
         with peace of mind.</p>
  </div>
 </div>
+<!--  -->
 <div class="icon">
  <div class="first-image">
     <img src="icons/question.png" alt="house">
@@ -183,13 +205,20 @@
         literally what we pay them for.</p>
  </div>
 </div>
+<!--  -->
+
 </div>
+ <!-- first-content(div) -->
+<!-- sopping-png -->
 <div class="last-image">
     <img src="images/shopping.png" alt="ping">
 </div>
+<!-- sopping-png -->
+
     </section>
    </footer>
 
+<!-- footer-section-end -->
 
    <!-- fontawesome -->
    <script src="https://kit.fontawesome.com/11347b4c17.js" crossorigin="anonymous"></script>

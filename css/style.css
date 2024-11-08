@@ -1,28 +1,25 @@
-
+/* google font*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,700;1,800&display=swap');
 
-.section{
-    max-width: 1500px;
-    margin: 0 auto;
-    padding-bottom: 100px;
-}
+ /* all container */
 .container{
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Inter';
 }
-/* header */
+/* header-section */
 .header-section{
     background-color: #FFFBF0;
 }
-.logo img{
-    width: 310px;
-}
+/* nav-start */
 .hero{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px 0;
+}
+.logo img{
+    width: 310px;
 }
 .main-menu{
     display: flex;
@@ -33,21 +30,27 @@
     font-weight: 500;
     font-size: 18px;
 }
-/* section */
+.mobile-menue{
+    display: none;
+}
+/* nav-end */
+/* section hero-content-start */
 .hero-content{
     display: flex;
     align-items: center;
     column-gap: 50px;
+    
+    /* justify-content: space-between; */
 }
-.content-area{
+/* .content-area{
     width: 600px;
-}
+} */
 .hero-content .content-area h1{
     
     font-weight:700 ;
     text-transform: uppercase;
 }
-.be {
+.penguin {
     color:#FABE4C ;
     font-size: 50px;
 }
@@ -65,7 +68,6 @@
     display:inline-block;
     padding: 18px 30px;
     border-radius: 10px;
-    /* display: flex; */
     column-gap:20px;
 }
 .fa-cart-shopping{
@@ -86,7 +88,13 @@
     width: 170px;
     padding-top: 20px;
 }
-/* main-section */
+.image-area img{
+    width: 440px;
+}
+/* section hero-content-end */
+/* header-section */
+
+/*  section main-content start*/
 .main-content{
     padding: 50px 0;
 }
@@ -101,11 +109,8 @@
     flex-direction:row;
     column-gap: 40px;
 }
-.jk-image{
-    padding: 20px 40px;
-    background-color: #F1F1F1;
-    border-radius: 15px;
-}
+
+/* woman-jacket */
 .woman-jacket{
     background-color:#FFFFFF ;
 padding: 30px 25px;
@@ -123,6 +128,11 @@ border-radius: 15px;
     font-weight: 400;
    padding: 5px 0 15px 0;
    color: #3E3E3E;
+}
+.jk-image{
+    padding: 20px 40px;
+    background-color: #F1F1F1;
+    border-radius: 15px;
 }
 span{
     color: #FABE4C;
@@ -159,6 +169,8 @@ font-weight:700;
 color: #363958;
 text-transform: uppercase;
 }
+/*  section main-content end */
+
 /* footer-section */
 .footer-section{
     padding-bottom: 100px;
@@ -210,3 +222,4 @@ text-transform: uppercase;
     align-items: center;
     padding: 0 0 0 15px
 }
+/* footer end */
