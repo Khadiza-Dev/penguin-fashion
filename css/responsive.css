@@ -1,4 +1,70 @@
-@media (max-width:600px) {
-  
+@media (max-width:375px) {
+/* nav-section */
+  .main-menu{
+  display: none;
+}
+.logo img{
+  width: 190px;
+}
+.mobile-menue{
+  display: block;
+}
+/* hero-content */
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.hero-content h1{
+font-size: 35px;
+}
+.image-area{
+width: 80%;
+padding: 50px 0;
+}
+/* jacket-section */
+.jacket-section{
+  display: flex;
+  flex-direction:column;
+  row-gap: 40px;
+  padding: 50px 20px;
+}
+.h1 h1{
+  font-size: 30px;
+font-weight:700;
+text-align: center;
+}
+/* footer -section */
+.last-section{
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 40px;
+}
+.last-image img{
+padding: 0 20px;
+}
+.first-content{
+  display: flex;
+flex-direction: column;
+row-gap: 20px;
+padding: 20px 20px;
   }
-  
+  .icon{
+    display: flex;
+    flex-direction:column;
+    row-gap: 10px;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  .first-image img{
+    width: 80px;
+}
+.item{
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  row-gap: 10px;
+  padding:20px 10px;
+}
+/* end */
+}

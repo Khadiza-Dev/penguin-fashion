@@ -40,11 +40,8 @@
     align-items: center;
     column-gap: 50px;
     
-    /* justify-content: space-between; */
 }
-/* .content-area{
-    width: 600px;
-} */
+
 .hero-content .content-area h1{
     
     font-weight:700 ;
@@ -88,8 +85,9 @@
     width: 170px;
     padding-top: 20px;
 }
-.image-area img{
-    width: 440px;
+.image-area{
+    display: flex;
+    justify-content: center;
 }
 /* section hero-content-end */
 /* header-section */
